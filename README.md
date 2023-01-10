@@ -1,3 +1,6 @@
+## 교재
+[교재](https://product.kyobobook.co.kr/detail/S000001868743)
+
 ## 스터디 목표
 CS 면접 대비 [운영체제]
 
