@@ -221,7 +221,7 @@ Physical Address Space라는 용어는 Logical Address Space와 대응되는 물
         
     - 성간?(sparse 주소 공간이 도대체 뭐야?)
         
-        ![AFD95D81-940A-412C-B5EB-476A36F831BE.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9fa3b5df-148e-43cc-9982-79ce4e01401d/AFD95D81-940A-412C-B5EB-476A36F831BE.png)
+![image](https://user-images.githubusercontent.com/64322765/217247616-cc486896-4335-49d2-88d4-e2c819a6f813.png)
         
     
 
@@ -229,7 +229,7 @@ Physical Address Space라는 용어는 Logical Address Space와 대응되는 물
 각 페이지의 크기가 4KB라면 12비트 오프셋과
 20비트짜리 페이지 번호로 나뉘는데, 2단계 페이징을 하면 10비트 페이지테이블 10비트짜리 페이지 오프셋으로 나뉜다. 
 
-![402E5357-B82E-49B1-9A6D-7E3B6AE73C83.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/24150ad5-3f22-4fad-8d7c-55a0e57a0634/402E5357-B82E-49B1-9A6D-7E3B6AE73C83.jpeg)
+![image](https://user-images.githubusercontent.com/64322765/217247567-6f9ccbc4-c79f-4b67-8bbc-c97a7d732acb.png)
 
 - 즉 계층적 페이징 기법은 32비트 시스템을 위한 기법이다.
 
