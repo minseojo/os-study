@@ -277,7 +277,7 @@ Physical Address Space라는 용어는 Logical Address Space와 대응되는 물
 
 ### 페이지 폴트를 처리하는 과정을 설명해 주세요.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1bf28b74-38e0-4605-af00-9f77d46dba04/Untitled.png)
+![image](https://user-images.githubusercontent.com/64322765/217246750-b80d62ec-3532-45ef-8654-8b31fa80f5d7.png)
 
 1. 프로세스에 대한 내부 테이블(internal table)[일반적으로 프로세스 제어 블록 (PCB)과 함께 유지]을 검사해서 그 메모리 참조(reference)가 유효•무효인지를 알아낸다.
 2. 만약 무효한 페이지에 대한 참조라면 그 프로세스는 중단된다. 만약 유효한 참조인데 페이지가 아직 메모리에 올라오지 않았다면, 그것을 보조저장장치로부터 가져 와야 한다.
@@ -304,9 +304,7 @@ fork를 하면 부모 프로세스의 페이지들을 실제로 자식 프로세
 
 그래서 부모의 페이지들을 다 복사해오는 대신 쓰기 시 복사(copy-on-write) 방식을 사용할 수 있습니다.
 
-![082213CF-11DA-4E6A-A1B4-61997ECDBA1F.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0550258b-b4bc-4bff-ba9e-8ae40b62b972/082213CF-11DA-4E6A-A1B4-61997ECDBA1F.jpeg)
-
-![EF1A42E3-19D6-4271-AB0C-830EACF95CE8.jpeg](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/bc0da3b9-b964-4595-ab0e-bdb21b77e66d/EF1A42E3-19D6-4271-AB0C-830EACF95CE8.jpeg)
+![image](https://user-images.githubusercontent.com/64322765/217247114-1e99ad4d-34f9-46f8-a3d9-2b5c1ded22a5.png)
 
 위 두개의 그림을 보자 자식 프로세스가 시작할 때 부모 페이지를 당분간 함께 사용합니다. 
 
@@ -397,7 +395,7 @@ OPT 알고리즘은 앞으로 가장 사용하지 않을 페이지를 가장 우
 
 LRU 알고리즘은 최근에 사용하지 않은 페이지를 가장 먼저 내려 보내는 알고리즘이다. 최근에 사용되지 않으면 나중에도 사용되지 않을 것이라는 아이디어로부터 온 것이다. OPT의 경우에는 미래에 대한 예측이지만 LRU의 경우에는 과거를 보고 판단하므로 실질적으로 사용 가능한 알고리즘이라고 할 수 있다. 실제로도 최근에 사용하지 않은 페이지는 앞으로도 사용하지 않을 확률이 높다고 할 수 있따. 비록 OPT보다는 페이지 결함이 더 일어날 수 있지만 실제로 사용할 수 있는 알고리즘 중에서는 좋은 방법 중 하나라고 할 수 있다.
 
-![https://blog.kakaocdn.net/dn/tvbud/btqAK4gnKVD/hWAva1ykKaHL7wolK7ybDK/img.jpg](https://blog.kakaocdn.net/dn/tvbud/btqAK4gnKVD/hWAva1ykKaHL7wolK7ybDK/img.jpg)
+![image](https://user-images.githubusercontent.com/64322765/217247221-c1745f78-9932-4846-b424-701e8d19daf2.png)
 
 ### 여러 개의 프로세스들에 제한된 가용 메모리를 어떻게 할당할 것인가?
 
