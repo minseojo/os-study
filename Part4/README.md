@@ -220,8 +220,9 @@ Physical Address Space라는 용어는 Logical Address Space와 대응되는 물
         즉 클러스터 페이지 테이블은 메모리 액세스가 비연속적이면서 전 주소 공간으로 넓게 퍼져 나오는 경우에 유용합니다
         
     - 성간?(sparse 주소 공간이 도대체 뭐야?)
-        
-![image](https://user-images.githubusercontent.com/64322765/217247616-cc486896-4335-49d2-88d4-e2c819a6f813.png)
+         
+         ![image](https://user-images.githubusercontent.com/64322765/217248216-7bc0ba5a-8c48-41a0-aabf-79f65d741e78.png)
+
         
     
 
