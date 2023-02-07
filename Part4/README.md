@@ -146,7 +146,7 @@ Physical Address Space라는 용어는 Logical Address Space와 대응되는 물
 
 ### 어떤 메모리에 위치한 변수에 접근하기 위해서는 먼저 페이지 테이블에 있는 메모리를 먼저 접근해서 페이지 테이블 데이터를 가지고 온 후 이것을 참조해서 논리 주소를 물리 주소로 변환하는 작업을 거친 후에 실제로 그 메모리에 접근하여 두 번 메모리에 접근하는 상황이 발생하게 된다. 이 문제를 어떻게 해결하나요?
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cf69fa1-1622-4305-8395-90637cbd8f93/Untitled.png)
+![image](https://user-images.githubusercontent.com/64322765/217247763-cc4dbade-fd77-472e-98c2-4e14c18480cc.png)
 
 **메모리 접근 시간 문제**
 
